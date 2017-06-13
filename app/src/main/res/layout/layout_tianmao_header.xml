@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.maning.mnswipetoloaddemo.view.TianMaoRefreshHeaderView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/refresh_header_height_100"
+    >
+
+    <LinearLayout
+        android:id="@+id/llRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ivRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/animation_list_refresh_tm_pull"
+            />
+
+        <TextView
+            android:id="@+id/tvRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="下拉刷新"
+            android:textColor="#7b7b7b"
+            android:textSize="12sp"
+            />
+    </LinearLayout>
+
+
+</com.maning.mnswipetoloaddemo.view.TianMaoRefreshHeaderView>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.maning.mnswipetoloaddemo.view.CookRefreshHeaderView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/refresh_header_height_cook"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|bottom"
+            >
+
+            <ImageView
+                android:id="@+id/ivTest"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="24dp"
+                android:src="@drawable/icon_cook_01"
+                />
+
+            <ImageView
+                android:id="@+id/ivTest02"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="24dp"
+                android:src="@drawable/icon_cook_02"
+                />
+
+            <ImageView
+                android:id="@+id/ivTest03"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="24dp"
+                android:src="@drawable/icon_cook_03"
+                />
+
+            <ImageView
+                android:id="@+id/ivTest04"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="24dp"
+                android:src="@drawable/icon_cook_04"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+            <RelativeLayout
+                android:id="@+id/iv_pan_cover"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:rotation="-0"
+                android:transformPivotX="0dp"
+                android:transformPivotY="30dp"
+                >
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_cook_pan_cover"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="60dp"
+                android:layout_height="30dp">
+
+                <ImageView
+                    android:id="@+id/iv_pan"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_cook_pan"
+                    />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/icon_cook_03"
+                    />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/icon_cook_04"
+                    />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/icon_cook_01"
+                    />
+
+                <ImageView
+                    android:layout_width="46dp"
+                    android:layout_height="28dp"
+                    android:layout_centerInParent="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_cook_water"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</com.maning.mnswipetoloaddemo.view.CookRefreshHeaderView>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.maning.mnswipetoloaddemo.view.MTWMRefreshHeaderView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/refresh_header_height_100"
+    >
+
+    <LinearLayout
+        android:id="@+id/llRefresh"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/ivRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/animation_list_refresh_mtwm"
+            android:scaleX="0.4"
+            android:scaleY="0.4"
+            android:transformPivotX="75dp"
+            android:transformPivotY="30dp"
+            />
+    </LinearLayout>
+
+
+</com.maning.mnswipetoloaddemo.view.MTWMRefreshHeaderView>

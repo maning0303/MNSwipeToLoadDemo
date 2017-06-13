@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.maning.mnswipetoloaddemo.view.BaiduRefreshHeaderView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        >
+
+        <ImageView
+            android:id="@+id/iv_back_cloud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_baidu_pull_back_cloud"
+            />
+
+        <ImageView
+            android:id="@+id/iv_back_cloud2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_baidu_pull_back_cloud"
+            />
+
+        <ImageView
+            android:id="@+id/iv_back_castle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_baidu_pull_back_castle"
+            />
+
+        <ImageView
+            android:id="@+id/iv_back_castle2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_baidu_pull_back_castle"
+            />
+
+        <ImageView
+            android:id="@+id/iv_sun"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_baidu_pull_sun"
+            />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:paddingTop="20dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_baidu_pull_main_castle"
+            />
+
+        <RelativeLayout
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            >
+
+
+            <ImageView
+                android:id="@+id/ivRefresh"
+                android:layout_width="80dp"
+                android:layout_height="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/animation_list_refresh_baidu"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</com.maning.mnswipetoloaddemo.view.BaiduRefreshHeaderView>

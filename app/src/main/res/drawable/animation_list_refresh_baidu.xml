@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false">
+    <item
+        android:drawable="@drawable/loading_bear_1"
+        android:duration="100"/>
+    <item
+        android:drawable="@drawable/loading_bear_2"
+        android:duration="90"/>
+    <item
+        android:drawable="@drawable/loading_bear_3"
+        android:duration="80"/>
+    <item
+        android:drawable="@drawable/loading_bear_4"
+        android:duration="70"/>
+    <item
+        android:drawable="@drawable/loading_bear_5"
+        android:duration="60"/>
+    <item
+        android:drawable="@drawable/loading_bear_6"
+        android:duration="50"/>
+    <item
+        android:drawable="@drawable/loading_bear_7"
+        android:duration="40"/>
+    <item
+        android:drawable="@drawable/loading_bear_8"
+        android:duration="30"/>
+</animation-list>

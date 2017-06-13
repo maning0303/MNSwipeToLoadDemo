@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.maning.mnswipetoloaddemo.view.JDRefreshHeaderView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/refresh_header_height_80"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+
+    <LinearLayout
+        android:id="@+id/llRefresh"
+        android:layout_width="46dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/ivRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/animation_list_refresh_jd"
+            android:scaleX="0.4"
+            android:scaleY="0.4"
+            android:transformPivotX="0dp"
+            android:transformPivotY="30dp"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivSpeed"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/llRefresh"
+        android:background="@drawable/jd_speed"
+        android:visibility="visible"/>
+
+
+    <ImageView
+        android:id="@+id/ivBox"
+        android:layout_width="16dp"
+        android:layout_height="12dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="-15dp"
+        android:layout_toRightOf="@id/llRefresh"
+        android:background="@drawable/jd_box"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:visibility="visible"/>
+
+</com.maning.mnswipetoloaddemo.view.JDRefreshHeaderView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.maning.mnswipetoloaddemo.view.WeatherRefreshHeaderView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/refresh_header_height_80"
+        android:layout_gravity="center"
+        >
+
+        <RelativeLayout
+            android:id="@+id/iv_sun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/icon_weather_sun"/>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tvRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/iv_sun"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:text="刷新成功"
+            android:textColor="#FFFFFF"
+            android:textSize="10sp"/>
+    </RelativeLayout>
+</com.maning.mnswipetoloaddemo.view.WeatherRefreshHeaderView>

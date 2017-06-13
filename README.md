@@ -18,8 +18,6 @@
 <br>
 ![](https://github.com/maning0303/MNSwipeToLoadDemo/raw/master/screenshots/mn_swipetoload_008.png)
 <br>
-![](https://github.com/maning0303/MNSwipeToLoadDemo/raw/master/screenshots/mn_swipetoload_009.png)
-<br>
 
 
 ## 详情查看Demo
